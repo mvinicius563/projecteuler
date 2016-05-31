@@ -28,7 +28,7 @@
             return sum3 + sum5 - sum15;
         }
 
-        static void Main(String[] args)
+        public static void Run()
         {
             int t = int.Parse(Console.ReadLine());
             for (int ii = 0; ii < t; ++ii)
